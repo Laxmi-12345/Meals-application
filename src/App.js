@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch >
-          <Route exact path='/' component={HomePage}/>
-          <Route exact path='/categories' component={Categories}/>
-          <Route exact path='/random' component={RandomMeal}/>
+          <Route exact path='/'><HomePage /></Route> 
+          <Route exact path='/categories'><Categories/></Route>
+          <Route exact path='/random'><RandomMeal /></Route>
         </Switch >
         <Footer />
       </Router>
